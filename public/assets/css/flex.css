@@ -26,11 +26,19 @@
 	.container {
 		width: 100%;
 	}
+	header {
+		position: fixed;
+		top: 0px;  left: 0px;
+	}
 }
 
 @media screen and (max-width: 736px) {
 	.container {
 		width: 100%;
+	}
+	header {
+		position: fixed;
+		top: 0px; left: 0px;
 	}
 }
 
